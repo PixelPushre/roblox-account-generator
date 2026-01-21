@@ -1,0 +1,24 @@
+{
+    "proxy_type": "http",
+    "captcha_settings": {
+        "api_keys": {
+            "rosolve": ""
+        },
+        "selected_solver": "rosolve",
+        "timeout": 30
+    },
+    "account_settings": {
+        "custom_password": {
+            "enabled": false,
+            "password": "$password123"
+        },
+        "email_verification": {
+            "enabled": false
+        },
+        "display_name": {
+            "enabled": false,
+            "mode": "from_username",
+            "custom_name": ""
+        }
+    }
+}
