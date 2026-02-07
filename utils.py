@@ -2,6 +2,7 @@ import random, string, os, sys, json, time, threading
 from datetime import datetime
 from colorama import Fore as f, Style as s, init
 from threading import Lock
+import base64
 
 init(autoreset=False)
 
@@ -392,4 +393,5 @@ def thread_monitor(worker_func):
 def safe_print(message):
     with print_lock:
         print(message + s.RESET_ALL)
+
 
